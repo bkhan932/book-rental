@@ -33,6 +33,9 @@ This is a Laravel-based Book Rental application.
     ```bash
     cp .env.example .env
     ```
+    ```cmd
+    scp .env.example .env
+    ```
 
 5. Configure the database in the `.env` file.
 
@@ -46,6 +49,12 @@ This is a Laravel-based Book Rental application.
 
     ```bash
     php artisan migrate --seed
+    ```
+    
+8. Link the storage for the profiles pictures directory:
+
+    ```bash
+    php artisan storage:link
     ```
 
 ## Usage
