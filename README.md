@@ -13,7 +13,7 @@ This is a Laravel-based Book Rental application.
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/bkhan932/book-rental.git](https://github.com/bkhan932/book-rental.git)
+    git clone https://github.com/bkhan932/book-rental.git
     ```
 
 2. Navigate to the project directory:
